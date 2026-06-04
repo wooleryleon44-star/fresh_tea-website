@@ -1,0 +1,21 @@
+<a href="https://deine-sponsor-seite.de" class="sponsor-btn">
+    💖 Sponsor werden
+</a>
+
+<style>
+.sponsor-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background: #ff4d6d;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.sponsor-btn:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+</style>
