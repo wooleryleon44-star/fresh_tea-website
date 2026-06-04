@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshTea Ice Tea</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ffde59, #ffa94d);
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            color: white;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            color: white;
+            margin-top: 15px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 15px 30px;
+            background: white;
+            color: #ff7b00;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            width: 280px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+            color: #ff7b00;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🧊 FreshTea</h1>
+    <p>Der erfrischendste Ice Tea für heiße Tage.</p>
+    <a href="#features" class="btn">Jetzt entdecken</a>
+</header>
+
+<section id="features" class="features">
+    <div class="card">
+        <h3>🍋 Natürliche Zutaten</h3>
+        <p>Frischer Tee mit echten Fruchtaromen.</p>
+    </div>
+
+    <div class="card">
+        <h3>❄️ Perfekt gekühlt</h3>
+        <p>Maximale Erfrischung bei jedem Schluck.</p>
+    </div>
+
+    <div class="card">
+        <h3>🌱 Nachhaltig</h3>
+        <p>Umweltfreundliche Verpackungen.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 FreshTea Ice Tea</p>
+</footer>
+
+</body>
+</html>
